@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar PKn — Media Pembelajaran SMP/SMA</title>
+  <meta name="description" content="Media belajar Pendidikan Kewarganegaraan (PKn) untuk siswa SMP dan SMA: Pancasila, UUD NRI 1945, demokrasi, hukum, dan bela negara." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <button id="menuToggle" class="menu-toggle" aria-label="Buka daftar materi" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="brand">
+      <div class="brand-mark">PKn</div>
+      <div class="brand-text">
+        <strong>Belajar PKn</strong>
+        <span>Media Pembelajaran SMP / SMA</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-title">Daftar Materi</p>
+      <nav id="topicNav" class="topic-nav">
+        <button class="topic-btn is-active" data-topic="pengantar">Pengantar PKn</button>
+        <button class="topic-btn" data-topic="pancasila">Pancasila</button>
+        <button class="topic-btn" data-topic="uud">UUD NRI Tahun 1945</button>
+        <button class="topic-btn" data-topic="nkri">NKRI &amp; Bhinneka Tunggal Ika</button>
+        <button class="topic-btn" data-topic="demokrasi">Demokrasi Pancasila</button>
+        <button class="topic-btn" data-topic="hak">Hak &amp; Kewajiban Warga Negara</button>
+        <button class="topic-btn" data-topic="hukum">Hukum &amp; Peradilan</button>
+        <button class="topic-btn" data-topic="lembaga">Lembaga Negara</button>
+        <button class="topic-btn" data-topic="bela">Bela Negara &amp; Wawasan Nusantara</button>
+      </nav>
+      <p class="sidebar-note">Pilih materi di atas untuk mulai belajar. Materi disusun mengikuti kurikulum sekolah menengah.</p>
+    </aside>
+
+    <div class="backdrop" id="backdrop" hidden></div>
+
+    <main class="content" id="content">
+
+      <article class="topic is-active" id="topic-pengantar" data-topic="pengantar">
+        <p class="topic-eyebrow">Materi 1</p>
+        <h1>Pengantar Pendidikan Kewarganegaraan</h1>
+        <p class="lead">Apa itu PKn, mengapa penting, dan apa yang akan kamu pelajari.</p>
+
+        <h2>Pengertian PKn</h2>
+        <p>Pendidikan Kewarganegaraan (PKn) adalah mata pelajaran yang mengajak kamu memahami diri sebagai warga negara: hak, kewajiban, peran, dan tanggung jawabmu terhadap bangsa dan negara Indonesia. PKn bukan sekadar hafalan pasal — PKn membentuk cara berpikir dan bersikap agar kamu menjadi warga negara yang baik dan bertanggung jawab.</p>
+
+        <h2>Tujuan Pembelajaran PKn</h2>
+        <ul>
+          <li>Mengenali diri sebagai warga negara Indonesia yang bangga terhadap bangsa dan tanah air.</li>
+          <li>Memahami nilai-nilai Pancasila dan menjadikannya pedoman dalam kehidupan sehari-hari.</li>
+          <li>Memahami hak dan kewajiban sebagai warga negara secara seimbang.</li>
+          <li>Terampil berdemokrasi: berdiskusi, menghargai perbedaan, dan mengambil keputusan bersama.</li>
+          <li>Memiliki rasa tanggung jawab untuk menjaga keutuhan Negara Kesatuan Republik Indonesia (NKRI).</li>
+        </ul>
+
+        <h2>Mengapa PKn Penting?</h2>
+        <p>Indonesia adalah negara besar dengan ribuan pulau, ratusan suku, dan ribuan pulau dengan berbagai agama dan bahasa. Perbedaan itu membuat Indonesia kuat — asalkan setiap warganya memahami cara hidup bersama. Di sinilah peran PKn: memberi bekal agar kamu mampu hidup rukun, berdemokrasi, dan menjaga persatuan.</p>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>PKn membentuk <em>karakter kewarganegaraan</em> — bukan hanya pengetahuan, tetapi juga sikap dan tindakan nyata sebagai warga negara.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>PKn = ilmu tentang hak, kewajiban, dan peran warga negara.</li>
+            <li>Tujuannya: bangga Indonesia, memahami Pancasila, berdemokrasi, dan menjaga NKRI.</li>
+            <li>PKn penting karena Indonesia adalah negara majemuk yang membutuhkan persatuan.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-pancasila" data-topic="pancasila">
+        <p class="topic-eyebrow">Materi 2</p>
+        <h1>Pancasila sebagai Dasar Negara</h1>
+        <p class="lead">Lima sila yang menjadi pedoman hidup bangsa Indonesia.</p>
+
+        <h2>Sejarah Singkat</h2>
+        <p>Pancasila lahir dari proses perumusan kemerdekaan Indonesia. Nama "Pancasila" berasal dari bahasa Sansekerta: <em>panca</em> (lima) dan <em>sila</em> (prinsip). Istilah ini dicetuskan oleh Ir. Soekarno dan dipertegas dalam Pembukaan UUD NRI Tahun 1945 alinea keempat.</p>
+
+        <h2>Isi Lima Sila</h2>
+        <ol>
+          <li><strong>Ketuhanan Yang Maha Esa</strong> — setiap warga negara mengakui adanya Tuhan dan menjalankan ajaran agamanya.</li>
+          <li><strong>Kemanusiaan yang Adil dan Beradab</strong> — setiap manusia setara dan berhak mendapat perlakuan yang manusiawi.</li>
+          <li><strong>Persatuan Indonesia</strong> — menjunjung tinggi persatuan di tengah keberagaman.</li>
+          <li><strong>Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan</strong> — keputusan bersama dihasilkan melalui musyawarah.</li>
+          <li><strong>Keadilan Sosial bagi Seluruh Rakyat Indonesia</strong> — keadilan sosial, ekonomi, dan politik untuk semua.</li>
+        </ol>
+
+        <h2>Makna dan Penerapan</h2>
+        <p>Nilai-nilai sila harus muncul dalam kehidupan nyata, bukan hanya di buku teks:</p>
+        <ul>
+          <li>Sila 1: saling menghormati ibadah teman berbeda agama, tidak memaksakan keyakinan.</li>
+          <li>Sila 2: membantu korban bencana tanpa memandang latar belakang.</li>
+          <li>Sila 3: memakai produk dalam negeri, menjaga kebersihan fasilitas umum.</li>
+          <li>Sila 4: musyawarah kelas saat menentukan kegiatan bersama.</li>
+          <li>Sila 5: berbagi dengan teman yang kurang mampu, tidak iri atas keberhasilan orang lain.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>Pancasila adalah dasar negara sekaligus ideologi nasional. Semua peraturan di Indonesia tidak boleh bertentangan dengan Pancasila.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>Pancasila = lima prinsip dasar negara Indonesia.</li>
+            <li>Ditetapkan pada 18 Agustus 1945 melalui Pembukaan UUD NRI 1945.</li>
+            <li>Nilainya harus diterapkan dalam kehidupan sehari-hari.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-uud" data-topic="uud">
+        <p class="topic-eyebrow">Materi 3</p>
+        <h1>UUD NRI Tahun 1945</h1>
+        <p class="lead">Konstitusi tertinggi negara Indonesia.</p>
+
+        <h2>Pengertian Konstitusi</h2>
+        <p>Konstitusi adalah hukum dasar tertulis yang mengatur penyelenggaraan negara. Di Indonesia, konstitusi tertinggi bernama <strong>Undang-Undang Dasar Negara Republik Indonesia Tahun 1945</strong> (UUD NRI 1945). Semua peraturan perundang-undangan lain — undang-undang, peraturan pemerintah, peraturan daerah — harus sesuai dengan UUD.</p>
+
+        <h2>Struktur UUD NRI 1945</h2>
+        <ul>
+          <li><strong>Pembukaan (Preambule)</strong> — memuat cita-cita kemerdekaan dan dasar negara Pancasila; terdiri dari empat alinea.</li>
+          <li><strong> Batang Tubuh</strong> — memuat aturan pokok tentang bentuk negara, kedaulatan, lembaga negara, hak warga negara, dan peradilan.</li>
+          <li><strong>Ketentuan Peralihan</strong> — aturan sementara saat berpindah dari masa kemerdekaan awal.</li>
+          <li><strong>Ketentuan Penutup</strong> — tentang berlakunya konstitusi.</li>
+        </ul>
+
+        <h2>Perubahan UUD (Amendemen)</h2>
+        <p>UUD NRI 1945 telah mengalami empat kali perubahan (amendemen) pada masa reformasi, tahun 1999–2002. Hasil perubahan antara lain:</p>
+        <ul>
+          <li>Hak asasi manusia diperjelas dalam Bab XA.</li>
+          <li>Majelis Permusyawaratan Rakyat (MPR) tidak lagi berkedudukan di atas lembaga lain.</li>
+          <li>Presiden dan wakil presiden dipilih langsung oleh rakyat.</li>
+          <li>Keanggotaan DPR dan DPD dipilih melalui pemilu, dengan pembatasan masa jabatan presiden maksimal dua periode.</li>
+          <li>Mahkamah Konstitusi dan Komisi Yudisial dibentuk untuk pengawasan konstitusi dan peradilan.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>UUD NRI 1945 adalah sumber dari seluruh hukum di Indonesia. Tidak ada peraturan yang boleh bertentangan dengan UUD.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>UUD NRI 1945 = konstitusi tertinggi Indonesia.</li>
+            <li>Strukturnya: Pembukaan, Batang Tubuh, Ketentuan Peralihan, Ketentuan Penutup.</li>
+            <li>Sudah diubah 4 kali (1999–2002) untuk memperkuat HAM, pemilu, dan peradilan.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-nkri" data-topic="nkri">
+        <p class="topic-eyebrow">Materi 4</p>
+        <h1>NKRI &amp; Bhinneka Tunggal Ika</h1>
+        <p class="lead">Satu nusa, satu bangsa, satu negara — di tengah ribuan perbedaan.</p>
+
+        <h2>Proses Terbentuknya NKRI</h2>
+        <p>Indonesia merdeka pada 17 Agustus 1945. Namun kemerdekaan harus dipertahankan melalui perjuangan fisik dan diplomasi. Proses penyatuan wilayah — mulai dari bergabungnya berbagai daerah ke dalam Negara Kesatuan Republik Indonesia — berlangsung bertahun-tahun, misalnya melalui perjanjian Linggadjati, Roem-Royen, dan Konferensi Meja Bundar (1949) yang mengakui kedaulatan Indonesia.</p>
+
+        <h2>Pengertian NKRI</h2>
+        <p><strong>Negara Kesatuan Republik Indonesia (NKRI)</strong> adalah bentuk negara kesatuan yang bersifat unitaris — seluruh wilayah berada di bawah satu pemerintahan pusat. Daerah memiliki otonomi, tetapi kedaulatan tetap di tangan pusat.</p>
+
+        <h2>Bhinneka Tunggal Ika</h2>
+        <p>Lambang negara Garuda Pancasila memuat semboyan <strong>"Bhinneka Tunggal Ika"</strong>, yang berarti "berbeda-beda tetapi tetap satu". Semboyan ini berasal dari kitab Sutasoma karya Mpu Tantular. Maknanya: keberagaman suku, agama, budaya, dan bahasa justru mempersatukan Indonesia.</p>
+
+        <h2>Penerapan Bhinneka Tunggal Ika</h2>
+        <ul>
+          <li>Menghormati teman yang berbeda suku, agama, dan adat.</li>
+          <li>Tidak membeda-bedakan perlakuan terhadap orang lain.</li>
+          <li>Ikut serta menjaga keamanan lingkungan dari provokasi SARA.</li>
+          <li>Mempelajari budaya daerah lain dengan antusias.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>Bentuk negara Indonesia adalah kesatuan (bukan serikat). Daerah dapat otonomi, tetapi NKRI tetap utuh dan tidak boleh dipecah.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>NKRI = negara kesatuan yang bersifat unitaris.</li>
+            <li>Kemerdekaan diakui dunia lewat KMB 1949.</li>
+            <li>Bhinneka Tunggal Ika: berbeda-beda tetapi tetap satu.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-demokrasi" data-topic="demokrasi">
+        <p class="topic-eyebrow">Materi 5</p>
+        <h1>Demokrasi Pancasila</h1>
+        <p class="lead">Cara Indonesia menjalankan pemerintahan: dari rakyat, oleh rakyat, untuk rakyat.</p>
+
+        <h2>Pengertian Demokrasi</h2>
+        <p>Kata demokrasi berasal dari bahasa Yunani: <em>demos</em> (rakyat) dan <em>kratos</em> (kekuasaan), artinya kekuasaan rakyat. Dalam demokrasi, rakyat ikut menentukan keputusan negara, baik langsung maupun melalui perwakilan.</p>
+
+        <h2>Ciri Demokrasi Pancasila</h2>
+        <ul>
+          <li>Berdasarkan Ketuhanan Yang Maha Esa — bermusyawarah dengan penuh tanggung jawab.</li>
+          <li>Menghormati hak asasi manusia.</li>
+          <li>Keputusan diambil melalui musyawarah untuk mufakat, bukan paksaan.</li>
+          <li>Keadilan sosial ditegakkan untuk seluruh rakyat.</li>
+          <li>Memegang prinsip kedaulatan di tangan rakyat dengan hikmat kebijaksanaan.</li>
+        </ul>
+
+        <h2>Demokrasi Terbuka vs Terpimpin</h2>
+        <p>Indonesia pernah mengalami dua era demokrasi:</p>
+        <ul>
+          <li><strong>Demokrasi Terbuka (1950–1959)</strong> — kebebasan politik sangat luas, banyak partai bermunculan, tetapi pemerintahan kurang stabil.</li>
+          <li><strong>Demokrasi Terpimpin (1959–1965)</strong> — kekuasaan terpusat pada presiden, MPR sebagai lembaga tertinggi.</li>
+          <li><strong>Demokrasi Pancasila (sekarang)</strong> — reformasi membawa pemilu langsung, kebebasan pers, dan penghormatan HAM yang lebih kuat.</li>
+        </ul>
+
+        <h2>Penerapan Demokrasi di Sekolah dan Masyarakat</h2>
+        <ul>
+          <li>Musyawarah kelas saat memilih ketua osis atau kegiatan bersama.</li>
+          <li>Menghargai pendapat orang lain meskipun berbeda.</li>
+          <li>Tidak menyebarkan berita bohong (hoaks) di media sosial.</li>
+          <li>Ikut serta dalam pemilu saat sudah cukup umur.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>Demokrasi bukan berarti bebas melakukan apa saja — kebebasan selalu dibatasi oleh hak orang lain dan aturan hukum.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>Demokrasi = kekuasaan rakyat.</li>
+            <li>Demokrasi Pancasila menekankan musyawarah, HAM, dan keadilan sosial.</li>
+            <li>Prinsipnya dapat diterapkan sejak dari kelas dan lingkungan sekitar.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-hak" data-topic="hak">
+        <p class="topic-eyebrow">Materi 6</p>
+        <h1>Hak dan Kewajiban Warga Negara</h1>
+        <p class="lead">Sebagai warga negara, kamu punya hak — dan juga kewajiban.</p>
+
+        <h2>Pengertian Warga Negara</h2>
+        <p>Warga negara adalah orang yang secara hukum terikat oleh ikatan setia kepada negara, dengan hak dan kewajiban tertentu. Di Indonesia, dasar hukum kewarganegaraan antara lain UUD NRI 1945 pasal 26 dan UU No. 62 Tahun 1958.</p>
+
+        <h2>Hak Warga Negara</h2>
+        <p>Contoh hak warga negara menurut UUD NRI 1945:</p>
+        <ul>
+          <li>Hak untuk hidup dan mempertahankan kehidupan (Pasal 28A).</li>
+          <li>Hak mendapat pendidikan (Pasal 31).</li>
+          <li>Hak bebas memilih agama dan beribadah (Pasal 28E).</li>
+          <li>Hak atas kesejahteraan sosial (Pasal 28D).</li>
+          <li>Hak untuk bekerja dan mendapat imbalan yang layak (Pasal 28D).</li>
+          <li>Hak untuk ikut serta dalam pemerintahan (Pasal 28I).</li>
+        </ul>
+
+        <h2>Kewajiban Warga Negara</h2>
+        <ul>
+          <li>Mematuhi peraturan perundang-undangan yang berlaku.</li>
+          <li>Membayar pajak untuk kemakmuran bersama.</li>
+          <li>Ikut serta dalam pertahanan dan keamanan negara (bela negara).</li>
+          <li>Menghormati hak orang lain dan tidak melanggar hak warga negara lain.</li>
+          <li>Menjunjung tinggi persatuan dan kesatuan bangsa.</li>
+        </ul>
+
+        <h2>Hubungan Hak dan Kewajiban</h2>
+        <p>Hak dan kewajiban adalah dua sisi mata uang yang tidak bisa dipisahkan. Kewajiban orang lain melindungi hakmu, dan kewajibanmu melindungi hak orang lain. Contoh: hakmu untuk belajar terjamin karena guru menjalankan kewajibannya mengajar; kamu juga wajib belajar agar hakmu tidak sia-sia.</p>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>Setiap hak memiliki batas: hak kamu berakhir di mana hak orang lain dimulai. Menggunakan hak tidak boleh merugikan orang lain.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>Hak dan kewajiban warga negara saling berhubungan seimbang.</li>
+            <li>Contoh hak: pendidikan, kesejahteraan, kebebasan beragama.</li>
+            <li>Contoh kewajiban: taat hukum, bayar pajak, bela negara, hormati hak orang lain.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-hukum" data-topic="hukum">
+        <p class="topic-eyebrow">Materi 7</p>
+        <h1>Hukum dan Peradilan</h1>
+        <p class="lead">Aturan main bersama dan lembaga yang menegakkannya.</p>
+
+        <h2>Pengertian Hukum</h2>
+        <p>Hukum adalah peraturan yang dibuat oleh pihak berwenang dan mengikat setiap orang, dengan sanksi bagi pelanggarnya. Hukum ada agar kehidupan bermasyarakat berjalan tertib dan adil.</p>
+
+        <h2>Sumber dan Jenis Hukum</h2>
+        <ul>
+          <li><strong>Undang-undang</strong> — peraturan yang disahkan DPR dan presiden.</li>
+          <li><strong>Peraturan pemerintah</strong> — pelaksanaan undang-undang.</li>
+          <li><strong>Peraturan daerah (Perda)</strong> — berlaku di wilayah daerah.</li>
+          <li><strong>Adat istiadat</strong> — aturan turun-temurun dalam masyarakat adat.</li>
+          <li><strong>Keputusan pengadilan (yurisprudensi)</strong> — putusan yang menjadi contoh.</li>
+        </ul>
+
+        <h2>Peradilan di Indonesia</h2>
+        <p>Lembaga peradilan di Indonesia terdiri dari:</p>
+        <ul>
+          <li><strong>Mahkamah Agung (MA)</strong> — pengadilan tertinggi untuk perkara perdata, militer, tindak pidana, dan agama; juga mengawasi peradilan di bawahnya.</li>
+          <li><strong>Mahkamah Konstitusi (MK)</strong> — mengadili sengketa kewenangan lembaga negara, pembubaran partai, dan menguji undang-undang terhadadap UUD (judicial review).</li>
+          <li><strong>Pengadilan Negeri</strong> — mengadili perkara pidana dan perdata tingkat pertama.</li>
+          <li><strong>Pengadilan Agama</strong> — mengadili perkara keluarga umat Islam (nikah, waris, dan lainnya).</li>
+          <li><strong>Pengadilan Tata Usaha Negara (PTUN)</strong> — mengadili sengketa administrasi pemerintahan.</li>
+        </ul>
+
+        <h2>Asas Peradilan</h2>
+        <ul>
+          <li><strong>Asas praduga tidak bersalah (presumption of innocence)</strong> — seseorang dianggap tidak bersalah sampai ada putusan pengadilan yang berkekuatan hukum tetap.</li>
+          <li><strong>Hakim yang merdeka</strong> — hakim memutus perkara hanya berdasarkan hukum.</li>
+          <li><strong>Peradilan terbuka</strong> — persidangan terbuka untuk umum.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>Kamu tidak boleh main hakim sendiri. Setiap sengketa diselesaikan melalui jalur hukum yang benar.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>Hukum = peraturan dengan sanksi agar masyarakat tertib.</li>
+            <li>Lembaga peradilan: MA, MK, pengadilan negeri, agama, dan PTUN.</li>
+            <li>Prinsip penting: praduga tidak bersalah dan peradilan terbuka.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-lembaga" data-topic="lembaga">
+        <p class="topic-eyebrow">Materi 8</p>
+        <h1>Lembaga Negara Indonesia</h1>
+        <p class="lead">Siapa yang membuat, menjalankan, dan mengawasi aturan negara.</p>
+
+        <h2>Pembagian Kekuasaan Negara</h2>
+        <p>Menurut UUD NRI 1945, kekuasaan negara dibagi menjadi tiga cabang (trias politica):</p>
+        <ul>
+          <li><strong>Legislatif</strong> — membuat undang-undang (DPR dan DPD bersama presiden).</li>
+          <li><strong>Eksekutif</strong> — menjalankan undang-undang (presiden dan jajaran pemerintahan).</li>
+          <li><strong>Yudikatif</strong> — menegakkan hukum (MA, MK, dan pengadilan).</li>
+        </ul>
+
+        <h2>Lembaga-Lembaga Negara</h2>
+        <ul>
+          <li><strong>Majelis Permusyawaratan Rakyat (MPR)</strong> — mengubah dan menetapkan UUD; anggotanya gabungan DPR dan DPD.</li>
+          <li><strong>Dewan Perwakilan Rakyat (DPR)</strong> — lembaga perwakilan rakyat yang membuat undang-undang, mengawasi anggaran dan pemerintah.</li>
+          <li><strong>Dewan Perwakilan Daerah (DPD)</strong> — mewakili kepentingan daerah, ikut membahas rancangan undang-undang tertentu.</li>
+          <li><strong>Presiden dan Wakil Presiden</strong> — kepala negara dan pemerintahan, dipilih langsung oleh rakyat, masa jabatan 5 tahun, maksimal 2 periode.</li>
+          <li><strong>Mahkamah Agung &amp; Mahkamah Konstitusi</strong> — lembaga peradilan tertinggi.</li>
+          <li><strong>Komisi Yudisial</strong> — mengusulkan calon hakim dan mengawasi perilaku hakim.</li>
+        </ul>
+
+        <h2>Hubungan Antar-Lembaga</h2>
+        <p>Lembaga-lembaga negara saling mengawasi dan membatasi (checks and balances). Contoh: presiden dapat mengajukan rancangan undang-undang, tetapi harus disetujui DPR; DPR mengawasi kinerja pemerintah; MK dapat membatalkan undang-undang yang bertentangan dengan UUD.</p>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>Pemilu adalah sarana rakyat memilih wakilnya di DPR/DPD dan presiden/wakil presiden — inilah wujud kedaulatan rakyat.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>Kekuasaan negara dibagi: legislatif, eksekutif, yudikatif.</li>
+            <li>Lembaga utama: MPR, DPR, DPD, presiden, MA, MK, Komisi Yudisial.</li>
+            <li>Sistem checks and balances mencegah penyalahgunaan kekuasaan.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="topic" id="topic-bela" data-topic="bela">
+        <p class="topic-eyebrow">Materi 9</p>
+        <h1>Bela Negara dan Wawasan Nusantara</h1>
+        <p class="lead">Menjaga Indonesia bukan hanya tugas tentara — tetapi tugas setiap warga negara.</p>
+
+        <h2>Pengertian Bela Negara</h2>
+        <p>Bela Negara adalah usaha warga negara untuk mempertahankan kedaulatan negara, keutuhan wilayah, dan keselamatan bangsa. Dasar hukumnya Pasal 30 UUD NRI 1945 dan UU No. 23 Tahun 2019 tentang Pembinaan Ketahanan Nasional.</p>
+
+        <h2>Tahapan Bela Negara</h2>
+        <ol>
+          <li><strong>Pendidikan dasar militer</strong> — latihan fisik dan dasar-dasar kemiliteran (wajib bagi warga tertentu).</li>
+          <li><strong>Pendidikan kepariwisataan</strong> — wisata edukasi untuk memahami keindahan dan keragaman Indonesia.</li>
+          <li><strong>Pelatihan dasar kesiapsiagaan</strong> — keterampilan menghadapi bencana.</li>
+          <li><strong>Pengabdian kepada masyarakat</strong> — kerja bakti, gotong royong, kegiatan sosial.</li>
+        </ol>
+
+        <h2>Bela Negara untuk Pelajar</h2>
+        <ul>
+          <li>Serius belajar agar masa depan bangsa lebih baik.</li>
+          <li>Menjaga nama baik sekolah dan lingkungan.</li>
+          <li>Ikut kegiatan sosial: donor darah, kerja bakti, penghijauan.</li>
+          <li>Menolak ajakan tawuran dan perusakan fasilitas umum.</li>
+          <li>Menyikapi berita dengan bijak dan tidak mudah terprovokasi.</li>
+        </ul>
+
+        <h2>Wawasan Nusantara</h2>
+        <p><strong>Wawasan Nusantara</strong> adalah cara pandang bangsa Indonesia tentang diri dan lingkungannya yang berwawasan nusantara: memandang seluruh wilayah dari Sabang sampai Merauke sebagai satu kesatuan yang utuh. Wawasan Nusantara lahir dari kondisi geografis Indonesia sebagai negara kepulauan (dasar hukum: UU No. 6 Tahun 1996 tentang Kepulauan Indonesia).</p>
+
+        <h2>Tanggung Jawab Menjaga Keamanan Nasional</h2>
+        <ul>
+          <li>Menjaga persatuan dari ancaman disintegrasi bangsa.</li>
+          <li>Tidak terlibat tindakan makar atau pemberontakan.</li>
+          <li>Ikut menjaga keamanan lingkungan, misalnya ronda dan kegiatan karang taruna.</li>
+          <li>Menghormati perbedaan politik dengan tetap menjaga persatuan.</li>
+        </ul>
+
+        <div class="callout">
+          <strong>Ingat!</strong>
+          <p>Bela negara hari ini bukan hanya berperang — belajar, bekerja keras, dan menjaga persatuan adalah bentuk bela negara yang nyata.</p>
+        </div>
+
+        <h2>Rangkuman</h2>
+        <div class="summary">
+          <ul>
+            <li>Bela negara = mempertahankan NKRI, dasarnya Pasal 30 UUD 1945.</li>
+            <li>Pelajar bela negara dengan belajar, menjaga persatuan, dan kegiatan sosial.</li>
+            <li>Wawasan Nusantara = memandang seluruh wilayah Indonesia sebagai satu kesatuan.</li>
+          </ul>
+        </div>
+      </article>
+
+      <footer class="page-footer">
+        <p>Belajar PKn — Media Pembelajaran SMP/SMA · Dibuat untuk tugas dan pembelajaran</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
